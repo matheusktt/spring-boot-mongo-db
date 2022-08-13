@@ -8,6 +8,4 @@ import com.workshopmongo.domain.User;
 @Repository
 public interface UserRepository extends MongoRepository<User, String>{
 
-	User findAllById(String id);
-
 }
